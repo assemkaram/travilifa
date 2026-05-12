@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    outline: none;
+
+    list-style: none;
+    text-decoration: none;
+
+    position: relative;
+    box-sizing: border-box;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100svh;
+    color: white;
+}
+
+main {
+    background-image: url("https://travilifa.vercel.app/assets/Background-CrhoXMm2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+body {
+    max-width: 100svw;
+    min-height: 100svh;
+
+}
+.tras {
+    background-color: transparent !important;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.search {
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    color: black;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.point-info-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.green {
+    color: rgb(67, 109, 90) ;
+}
+.container {
+    padding: 60px 0;
+}
+
+.caa {
+    width:29%;
+}
+.cbb {
+    width: 25%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.114);
+}
+
+footer {
+    width: 100%;
+}
+
+.bottom-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+@media (max-width:430px){
+    .caa {
+        width: 100%;
+    }
+    .cbb {
+        width: 100%;
+    }
+}
